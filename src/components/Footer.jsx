@@ -11,16 +11,16 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="/privacy" className="text-gray-400 hover:text-gray-200">Privacy Policy</a>
+                <a href="/" className="text-gray-400 hover:text-gray-200">Privacy Policy</a>
               </li>
               <li>
-                <a href="/terms" className="text-gray-400 hover:text-gray-200">Terms of Service</a>
+                <a href="/" className="text-gray-400 hover:text-gray-200">Terms of Service</a>
               </li>
               <li>
-                <a href="/about" className="text-gray-400 hover:text-gray-200">About Us</a>
+                <a href="/aboutus" className="text-gray-400 hover:text-gray-200">About Us</a>
               </li>
               <li>
-                <a href="/contact" className="text-gray-400 hover:text-gray-200">Contact Us</a>
+                <a href="/contactus" className="text-gray-400 hover:text-gray-200">Contact Us</a>
               </li>
             </ul>
           </div>

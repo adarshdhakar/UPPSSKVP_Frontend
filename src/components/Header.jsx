@@ -70,7 +70,7 @@ const Header = () => {
     Member
   </span>
 </Link>
-<Link to="/aboutus">
+{/* <Link to="/aboutus">
   <span className="px-3 md:m py-2 bg-gradient-to-r from-green-600 to-blue-900 rounded-lg text-white font-bold">
     About Us
   </span>
@@ -78,6 +78,16 @@ const Header = () => {
 <Link to="/contactus">
   <span className="px-3 md:m py-2 bg-gradient-to-r from-green-600 to-blue-900 rounded-lg text-white font-bold">
     Contact Us
+  </span>
+</Link> */}
+<Link to="/salary">
+  <span className="px-3 md:m py-2 bg-gradient-to-r from-green-600 to-blue-900 rounded-lg text-white font-bold">
+    Salary
+  </span>
+</Link>
+<Link to="/admin">
+  <span className="px-3 md:m py-2 bg-gradient-to-r from-green-600 to-blue-900 rounded-lg text-white font-bold">
+    Admin
   </span>
 </Link>
 

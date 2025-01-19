@@ -161,44 +161,55 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Visual Highlights Section */}
-      <section className="py-16 bg-gradient-to-r from-gray-600 to-cyan-900">
-        <div className="container mx-auto text-center px-6">
-          <h3 className="text-3xl font-bold mb-6">Our Visual Highlights</h3>
-          <Carousel className="h-96">
-            <img
-              src="https://media.istockphoto.com/id/1484162018/photo/crow-with-mouthful-of-food-in-beak.jpg?s=2048x2048&w=is&k=20&c=pHImfUz6DujTaNCv_wKIXiv2XTqgNQYoY1b7ce1Lag8="
-              alt="Placeholder Image"
-              className="w-full h-80 object-cover"
-            />
-            <img
-              src="https://plus.unsplash.com/premium_photo-1661412727566-dfd85cd6a21f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Placeholder Image"
-              className="w-full h-80 object-cover"
-            />
-            <img
-              src="https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Placeholder Image"
-              className="w-full h-80 object-cover"
-            />
-            <img
-              src="https://plus.unsplash.com/premium_photo-1661412727566-dfd85cd6a21f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Placeholder Image"
-              className="w-full h-80 object-cover"
-            />
-            <img
-              src="https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Placeholder Image"
-              className="w-full h-80 object-cover"
-            />
-            <img
-              src="https://plus.unsplash.com/premium_photo-1661412727566-dfd85cd6a21f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Placeholder Image"
-              className="w-full h-80 object-cover"
-            />
-          </Carousel>
-        </div>
-      </section>
+     {/* Visual Highlights Section */}
+     <section className="py-12 px-10 bg-gradient-to-r from-gray-600 to-cyan-900">
+  <div className="container mx-auto">
+    <h3 className="text-3xl font-bold mb-8 text-white text-center">Our Visual Highlights</h3>
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
+      {/* First Carousel */}
+      <div className="w-full lg:w-1/2">
+        <Carousel className="h-80">
+          <img
+            src="/images/banner01.jpg"
+            alt="Placeholder Image"
+            className="w-full h-80 object-cover rounded-lg"
+          />
+          <img
+            src="/images/banner02.jpg"
+            alt="Placeholder Image"
+            className="w-full h-80 object-cover rounded-lg"
+          />
+          <img
+            src="/images/banner03.jpg"
+            alt="Placeholder Image"
+            className="w-full h-80 object-cover rounded-lg"
+          />
+        </Carousel>
+      </div>
+      {/* Second Carousel */}
+      <div className="w-full lg:w-1/2">
+        <Carousel className="h-80">
+          <img
+            src="/images/banner04.jpg"
+            alt="Placeholder Image"
+            className="w-full h-80 object-cover rounded-lg"
+          />
+          <img
+            src="/images/banner05.jpg"
+            alt="Placeholder Image"
+            className="w-full h-80 object-cover rounded-lg"
+          />
+          <img
+            src="/images/banner06.jpg"
+            alt="Placeholder Image"
+            className="w-full h-80 object-cover rounded-lg"
+          />
+        </Carousel>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Downloads Section */}
 <section className="py-16 bg-gray-200">

@@ -13,6 +13,8 @@ import Member from './pages/Member';
 import About from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Notifications from './pages/Notifications';
+import RForm from './pages/RForm';
+import Admin from './pages/Admin';
 
 import Header from './components/Header'; // Import Header component
 import Footer from './components/Footer'; // Import Header component
@@ -33,7 +35,8 @@ const App = () => {
         <Route path="/aboutus" element={<About />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/notification" element={<Notifications />} />
-
+        <Route path="/salary" element={<RForm />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
       <Footer />
     </Router>
